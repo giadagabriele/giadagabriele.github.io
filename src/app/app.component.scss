@@ -14,10 +14,10 @@ mat-slide-toggle {
 }
 
 mat-expansion-panel {
-	width: 600px;
+	width: 50%;
 }
-
-img {
-    height: fit-content;
-    width: 4em;
-}
+.responsive {
+    width: 50%;
+    max-width: 100px;
+    height: auto;
+  }
