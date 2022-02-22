@@ -31,13 +31,10 @@ $app-dark-theme: mat-dark-theme(
 .darkMode {
     @include angular-material-theme($app-dark-theme);
 }
-.darkMode body {
-    background-color: #303030;
-}
 
 .flex-stretch {
     flex: 1 0 auto ;
 }
 
-html, body { height: 100%; }
+html, body { height: 200%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
