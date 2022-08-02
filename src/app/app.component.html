@@ -2,14 +2,14 @@
 <html lang="en">
 
 <body class="content mat-app-background">
-  <div class="flex-stretch"></div>
-  <mat-slide-toggle color="primary" [formControl]="toggleControl"><img src="../assets/dark-mode.png"
-      style="width: 1em; height: 1em; margin-left: 0.5em;" /></mat-slide-toggle>
+  <mat-slide-toggle color="primary" [formControl]="toggleControl">
+    <img src="../assets/dark-mode.png" style="width: 1em; height: 1em; margin-left: 0.5em;" />
+  </mat-slide-toggle>
 
-  <p class="center" style="margin-top: 5em;"><img src="../assets/cv_pic.png" style="width:30%;
-    max-width: 150px;
-    height: auto;"/></p>  
-  <h2 class="center">Giada Gabriele</h2>
+  <p style="position: absolute; right: 0.5em; top: 8px;">
+    <img src="../assets/cv_pic.png" style="width: 50%; max-width: 150px; height: auto;"/>
+  </p>  
+  <h2 class="center" style="margin-top: 5em;">Giada Gabriele</h2>
 
   <mat-accordion class="center">
     <mat-expansion-panel hideToggle>
