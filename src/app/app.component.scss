@@ -4,15 +4,13 @@
     justify-content: center;
 }
 
-mat-slide-toggle {
-	margin-left: 8px;
-	margin-top: 8px;
+p {
+    font-family: 'Overpass Mono', monospace;
 }
 
-mat-expansion-panel {
-    background-color: whitesmoke;
-	width: 80%;
-    height: fit-content;
+mat-slide-toggle {
+    margin-left: 8px;
+    margin-top: 8px;
 }
 
 .responsive {
@@ -27,12 +25,21 @@ mat-expansion-panel {
     right: 15px;
     opacity: 0;
     transition: all .2s ease-in-out;
-   }
-   .show-scrollTop {
+}
+
+.show-scrollTop {
     opacity: 1;
     transition: all .2s ease-in-out;
-   }
-   
-   .mat-tab-group {
+}
+
+.mat-tab-group {
     margin-bottom: 8px;
-  }
+}
+
+#panel {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+}
