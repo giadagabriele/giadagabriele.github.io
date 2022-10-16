@@ -11,8 +11,10 @@ mat-slide-toggle {
 
 mat-expansion-panel {
     background-color: whitesmoke;
-	width: 80%;
+	width: 50%;
+    height: fit-content;
 }
+
 .responsive {
     width: 30%;
     max-width: 50px;
@@ -30,3 +32,7 @@ mat-expansion-panel {
     opacity: 1;
     transition: all .2s ease-in-out;
    }
+   
+   .mat-tab-group {
+    margin-bottom: 8px;
+  }

@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle'; 
 import {MatExpansionModule} from '@angular/material/expansion'; 
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {MatTabsModule} from '@angular/material/tabs'; 
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
     MatSlideToggleModule,
     MatExpansionModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
