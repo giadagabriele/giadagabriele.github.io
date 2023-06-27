@@ -1,590 +1,144 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
-
+<html>
 <head>
-
-	<!--- basic page needs
-   ================================================== -->
-	<meta charset="utf-8">
-	<title>Giada Gabriele</title>
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<!-- mobile specific metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-	<!-- CSS
-   ================================================== -->
-	<link rel="stylesheet" href="css/base.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/vendor.css">
-
-	<!-- script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
-	<script src="js/pace.min.js"></script>
-
-	<!-- favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
-
+    <title>Giada Gabriele</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Giada Gabrele website">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/kube.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/custom.min.css" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<style>
+		.intro h1:before {
+			/* Edit this with your name or anything else */
+			content: 'GIADA';
+		}
+	</style>
 </head>
-
-<body id="top">
-
-
-	<!-- intro section
-   ================================================== -->
-	<section id="intro">
-
-		<div class="intro-overlay"></div>
-
-		<div class="intro-content">
-			<div class="row">
-
-				<div class="col-twelve">
-
-					<h5>Hello everyone</h5>
-					<h1>I'm Giada Gabriele</h1>
-
-					<p class="intro-position">
-						<span>computer scientist</span>
-					</p>
-
-					<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
+<body>
+	<!-- Navigation -->
+	<div class="main-nav">
+		<div class="container">
+			<header class="group top-nav">
+				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
+				    <span class="logo" style="color: transparent;">|</span>
 				</div>
-
-			</div>
-		</div> <!-- /intro-content -->
-
-		<ul class="intro-social">
-			<li><a href="https://github.com/giadagabriele"><i class="fa fa-github"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/giada-gabriele"><i class="fa fa-linkedin-square"></i></a></li>
-		</ul> <!-- /intro-social -->
-
-	</section> <!-- /intro -->
-
-
-	<!-- about section
-   ================================================== -->
-	<section id="about">
-
-		<div class="row section-intro">
-			<div class="col-twelve">
-
-				<h5>About</h5>
-				<h1>Let me introduce myself.</h1>
-
-				<div class="intro-info">
-
-					<img src="images/profile.jpg" alt="Profile Picture">
-
-					<p class="lead">
-						I'm 26, living in the southern of Italy, a little bit nerd seems to be a fair summary.
-						I'm a computer scientist (nerd and computers, I know, what a cliché), passionate about security
-						and computer
-						forensics.
-				</div>
-
-			</div>
-		</div> <!-- /section-intro -->
-
-		<div class="row about-content">
-
-			<h3>Skills</h3>
-
-			<div id="icons" class="col-twelve tab-full">
-
-
-
-				<img alt="c-plus-plus" src="images/assets/c-plus-plus.png" class="responsive" />
-				<img alt="Java" src="images/assets/java.png" class="responsive" />
-				<img alt="SQL" src="images/assets/SQL.png" class="responsive" />
-				<img alt="Python" src="images/assets/python.png" class="responsive" />
-				<img alt="Perl" src="images/assets/perl-logo.png" class="responsive" />
-				<img alt="GNS3" src="images/assets/gns3.png" class="responsive" />
-				<img alt="HTML" src="images/assets/html.png" class="responsive" />
-				<img alt="CSS" src="images/assets/css.png" class="responsive" />
-				<img alt="JavaScript" src="images/assets/js.png" class="responsive" />
-				<img alt="Android Studio" src="images/assets/android-studio.png" class="responsive" />
-				<img alt="Spring Framework" src="images/assets/spring-framework.png" class="responsive" />
-				<img alt="Angular" src="images/assets/angular.png" class="responsive" />
-				<img alt="Django Software" src="images/assets/django.png" class="responsive" />
-
-			</div>
-
+			    <nav id="navbar-1" class="navbar item-nav">
+				    <ul>
+				        <li class="active"><a href="#about">About</a></li>
+				        <li><a href="#education">Education</a></li>
+				        <li><a href="#skills">Skills</a></li>
+				        <li><a href="#contact">Contact</a></li>
+				    </ul>
+				</nav>
+			</header>
 		</div>
-
-
-	</section> <!-- /process-->
-
-
-	<!-- resume Section
-   ================================================== -->
-	<section id="resume" class="grey-section">
-
-
-		<div class="row resume-timeline">
-
-			<div class="col-twelve resume-header">
-
-				<h2>Education</h2>
-
-			</div> <!-- /resume-header -->
-
-			<div class="col-twelve">
-
-				<div class="timeline-wrap">
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Master Degree</h3>
-
-						</div>
-
-						<div class="timeline-content">
-							<h4>Artificial Intelligence and Computer Science (Computer Security), Università della
-								Calabria</h4>
-							<p>September 2021 - Present</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>Bachelor Degree</h3>
-
-						</div>
-
-						<div class="timeline-content">
-							<h4>Computer Science, Università della Calabria</h4>
-							<p>September 2016 - March 2021</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-					<div class="timeline-block">
-
-						<div class="timeline-ico">
-							<i class="fa fa-briefcase"></i>
-						</div>
-
-						<div class="timeline-header">
-							<h3>High School Diploma</h3>
-
-						</div>
-
-						<div class="timeline-content">
-							<h4>Liceo Statale "Lucrezia della Valle", Human Sciences</h4>
-							<p>September 2011 - July 2016</p>
-						</div>
-
-					</div> <!-- /timeline-block -->
-
-				</div> <!-- /timeline-wrap -->
-
-			</div> <!-- /col-twelve -->
-
-		</div> <!-- /resume-timeline -->
-
-	</section> <!-- /features -->
-
-
-	<!-- Portfolio Section
-   ================================================== -->
-	<section id="portfolio">
-
-		<div class="row section-intro">
-			<div class="col-twelve">
-
-				<h5>Check Out Some of My Works</h5>
-				<p>These are my main projects</p>
-
-			</div>
-		</div> <!-- /section-intro-->
-
-		<div class="row portfolio-content">
-
-			<div class="col-twelve">
-
-				<!-- portfolio-wrapper -->
-				<div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-					
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/hive.png" alt="Hive">
-							<a href="#modal-01" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">The CIA Hive Component</h3>
-										<span class="folio-types">
-											Network Security, university group project
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/cod.png" alt="COD">
-							<a href="#modal-02" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">COD challenges</h3>
-										<span class="folio-types">
-											Cyber Offense and Defense, university group project
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/compas.png" alt="COMPAS">
-							<a href="#modal-03" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">COMPAS Scores Analysis</h3>
-										<span class="folio-types">
-											Data Analytics (Machine Learning), university group project
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/agt.png" alt="AGT">
-							<a href="#modal-04" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">AGT</h3>
-										<span class="folio-types">
-											Algorithmic Game Theory, university project
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/dressy.png" alt="Dressy">
-							<a href="#modal-05" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Dressy</h3>
-										<span class="folio-types">
-											Secure Software Design, university group project
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<div class="bgrid folio-item">
-						<div class="item-wrap">
-							<img src="images/portfolio/infocard.png" alt="Infocard">
-							<a href="#modal-06" class="overlay">
-								<div class="folio-item-table">
-									<div class="folio-item-cell">
-										<h3 class="folio-title">Infocard</h3>
-										<span class="folio-types">
-											Bachelor Degree thesis project
-										</span>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div> <!-- /folio-item -->
-
-					<!-- modal popups - begin
-	            ============================================================= -->
-				<div id="modal-01" class="popup-modal slider mfp-hide">
-
-					<div class="media">
-						<img src="images/portfolio/modals/m-hive.png" alt="" />
-					</div>
-
-					<div class="description-box">
-						<h4>The CIA Hive Component</h4>
-						<p>Based on documents released by WikiLeaks, this project aims to explain and replicate a
-							cyber attack through the CIA's Hive tool.
-							We have not been able to configure everything but you can consult the source code to
-							access materials and explanations of how Hive is
-							supposed to work.
-						</p>
-
-						<div class="categories">Network Security</div>
-					</div>
-
-					<div class="link-box">
-						<a href="https://github.com/giadagabriele/WikiLeaks-Hive">Source code</a>
-						<a href="#" class="popup-modal-dismiss">Close</a>
-					</div>
-
-				</div> <!-- /modal-01 -->
-
-					<div id="modal-02" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/modals/m-cod.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>COD challenges</h4>
-							<p>The goal of this project was to write 3 complete scripts that solved 3 chosen challenges
-								on PortSwigger
-								Web Security Academy and implement a vulnerable backend. Vulnerabilities treated: CSRF,
-								command injection, XXE injection,
-								file upload (+ stored XSS). Developed with Python, Flask and HTML.
-							</p>
-
-							<div class="categories">Cybersecurity</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://github.com/giadagabriele/COD-project">Source code</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-02 -->
-
-					<div id="modal-03" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/modals/m-compas.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>COMPAS Scores Analysis</h4>
-							<p>Correctional Offender Management Profiling for Alternative Sanctions (COMPAS) is a case
-								management and decision support tool developed and owned by Northpointe used by
-								U.S. courts to assess the likelihood of a defendant becoming a recidivist. The main goal
-								of this academic project is to determine and predict if a
-								defendant becomes a recidivist. The secondary goals are: predict if a defendant becomes
-								a violent recid or not and predict the difference (in days)
-								between the date of the first crime anche the date of the recidivist or the violent
-								recidivist offense. Developed with Python (libraries: Pandas,
-								Seaborn, Scikit-learn, Matplotlib, NumPy) using Jupyter Notebook.
-							</p>
-
-							<div class="categories">Data Analysis</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://github.com/giadagabriele/COMPAS-Scores-Analysis">Source code</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-03 -->
-
-
-					<div id="modal-04" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/modals/m-agt.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>AGT</h4>
-							<p>The assignment demanded to implement a system (a mechanism) that selects the user who
-								will perform the tour, defines the places that
-								the tour will visit and defines the payments charged to the users. The only constraint
-								is the maximum payout. Costs proportional to
-								kilometers should be equally distributed and fixed costs should be based on declared
-								utilities (truthful declarations of utilities).
-								The paper was written in LaTeX, with Overleaf.
-							</p>
-
-							<div class="categories">Paper</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://github.com/giadagabriele/Algorithmic-Game-Theory">Source code</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-04 -->
-
-					<div id="modal-05" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/modals/m-dressy.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Dressy</h4>
-							<p>Development of a dress loan service. Two models, dress and loan, two levels of access, to
-								allow more control over who-does-what.
-								Developed with Python, Pytest, Django, Django REST Framework and React.
-							</p>
-
-							<div class="categories">TUI Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://github.com/giadagabriele/SSD-TUI">Source code</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-05 -->
-					
-
-					<div id="modal-06" class="popup-modal slider mfp-hide">
-
-						<div class="media">
-							<img src="images/portfolio/modals/m-infocard.png" alt="" />
-						</div>
-
-						<div class="description-box">
-							<h4>Infocard</h4>
-							<p>This thesis work aims to design and develop an Android application, called Infocard, able
-								to better manage contacts through a
-								"smart" address book with some references to typical social network functions. In
-								particular, through a system of requests, it
-								is possible to view the personal data of users, such as profile picture, nickname, name,
-								surname, especially e-mail and telephone
-								number, and keep them close at hand within Infocard. Developed with Java and Firebase.
-							</p>
-
-							<div class="categories">Android Development</div>
-						</div>
-
-						<div class="link-box">
-							<a href="https://github.com/giadagabriele/Infocard">Source code</a>
-							<a href="#" class="popup-modal-dismiss">Close</a>
-						</div>
-
-					</div> <!-- /modal-06 -->
-
-
-					<!-- modal popups - end
-	            ============================================================= -->
-
-				</div> <!-- /portfolio-wrapper -->
-
-			</div> <!-- /twelve -->
-
-		</div> <!-- /portfolio-content -->
-		<div class="row button-section" style="margin-top: 80px;">
-			<div class="col-twelve">
-				<p>FOR MORE</p>
-				<a href="GiadaGabriele.pdf" title="Download CV" class="button button-primary">Download CV</a>
-			</div>
-		</div>
-
-	</section> <!-- /portfolio -->
-
-
-
-
-
-
-
-
-
-	<!-- contact
-   ================================================== -->
-	<section id="contact">
-
-		<div class="row section-intro">
-			<div class="col-twelve">
-
-				<h5>Contact</h5>
-
-			</div>
-		</div> 
-
-		<div class="row contact-info">
-
-			<div class="col-twelve tab-full collapse">
-
-				<div class="icon">
-					<i class="icon-mail"></i>
-				</div>
-
-				<h5>You Can Email Me At</h5>
-
-				<a href="mailto:giadagabriele@protonmail.com" style="color: red;">
-					<p>giadagabriele@protonmail.com
-					</p>
-				</a>
-
-			</div>
-
-		
-
-		</div> <!-- /contact-info -->
-
-	</section> <!-- /contact -->
-
-
-	<!-- footer
-   ================================================== -->
-
-	<footer>
-		<div class="row">
-
-			<div class="col-six tab-full pull-right social">
-
-				<ul class="footer-social">
-					<li><a href="https://github.com/giadagabriele"><i class="fa fa-github"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/giada-gabriele"><i class="fa fa-linkedin-square"></i></a>
-					</li>
-				</ul>
-
-			</div>
-
-			<div class="col-six tab-full">
-				<div class="copyright">
-					<span>© Copyright Giada Gabriele 2023.</span>
-					<span> based on <a href="http://www.styleshout.com/">styleshout</a></span>
-				</div>
-			</div>
-
-			<div id="go-top">
-				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-			</div>
-
-		</div> <!-- /row -->
-	</footer>
-
-	<div id="preloader">
-		<div id="loader"></div>
 	</div>
 
-	<!-- Java Script
-   ================================================== -->
-	<script src="js/jquery-2.1.3.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+	<!-- Introduction -->
+	<div class="intro section" id="about">
+		<div class="container">
+			<p>Hello everyone, I’m Giada Gabriele</p>
+			<div class="units-row units-split wrap">
+				<div class="unit-20">
+					<img src="img/avatar.png" alt="Avatar">
+				</div>
+				<div class="unit-80">
+					<h1>I live<br><span id="typed"></span></h1>
+				</div>
+				<p>
+					I'm 26, a little bit nerd seems to be a fair summary. I'm a computer scientist (nerd and computers, I know, what a cliché), passionate about security and computer forensics. 
+				</p>
+			</div>
+		</div>
+	</div>
 
+	<!-- Education -->
+	<div class="work section second" id="education">
+		<div class="container">
+			<h1>Education</h1>
+			<ul class="work-list">
+				<li>2021 - Present</li>
+				Artificial Intelligence and Computer Science (Computer Security)
+				<li>Master Degree @Università della Calabria</li>
+			</ul>
+			<ul class="work-list">
+				<li>2016 - 2021</li>
+				Computer Science
+				<li>Bachelor Degree @Università della Calabria</li>
+			</ul>
+			<ul class="work-list">
+				<li>2011 - 2016</li>
+				Human Sciences
+				<li>High School Diploma @Liceo Statale "Lucrezia della Valle"</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Skills -->
+	<div class="skills section second" id="skills"> <!--reindirizzamento da sopra sballato-->
+		<div class="container">
+			<h1>Skills</h1>
+			<ul class="skill-list list-flat">
+				C++, Java, SQL, Python, Perl, HTML, CSS, JavaScript, ASP-DLV, Networks and GNS3, Android App Development, Spring, Angular, Data Analytics (Data Warehouse & Machine Learning), Django
+				<br><br>
+				<li>For more information and to take a look at some of my projects <a href="GiadaGabriele.pdf">download</a> my CV.</li>
+		</div>
+	</div>
+
+	<!-- Contact &amp-->
+	<div class="award section second" id="contact">
+		<div class="container">
+			<h1>Contact</h1>	
+			<p>
+				You can contact me via <a href="mailto:giadagabriele@protonmail.com">email</a>
+			</p>
+		</div>
+	</div>
+
+	
+
+	<!-- Quote -->
+	<div class="quote">
+		<div class="container text-centered">
+			<!--I break things, I don't fix them-->
+			<h1>"I know kung fu."</h1>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="units-row">
+			    <div class="unit-50">
+					<span>© Copyright Giada Gabriele 2023.</span><br>
+			    	<span>Based on template by Afnizar Nur Ghifari</span>
+			    </div>
+			    <div class="unit-50">
+					<ul class="social list-flat right">
+						<li><a href="https://github.com/giadagabriele"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/giada-gabriele"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
+			    </div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Javascript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/typed.min.js"></script>
+    <script src="js/kube.min.js"></script>
+    <script src="js/site.js"></script>
+    <script>
+		function newTyped(){}$(function(){$("#typed").typed({
+		// Change to edit type effect
+		strings: ["in your galaxy", "on Earth-616", "in Italy"],
+
+		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+    </script>
 </body>
-
 </html>
